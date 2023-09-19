@@ -18,5 +18,6 @@ int play_int(va_list lst);
 int play_char(va_list lst);
 int (*trigger(char choice))(va_list lst);
 int play_str(va_list lst);
+int play_bin(va_list lst);
 
 #endif

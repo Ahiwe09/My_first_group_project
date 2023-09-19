@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * play_bin - This function converts a pass args to
  * binarry and prints it on the screen

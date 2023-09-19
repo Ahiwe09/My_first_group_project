@@ -1,4 +1,5 @@
 #include "main.h"
+int play_bin(va_list lst);
 /**
  * trigger - This function triggers appropriate function
  * depending on the choice spacified
