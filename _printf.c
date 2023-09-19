@@ -30,7 +30,10 @@ int _printf(const char *format, ...)
 			else
 			{
 				prt_cntr = _putchar('%');
+				_putchar(format[k]);
+				prt_cntr++;
 				continue;
+		
 			}
 		}
 		else

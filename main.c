@@ -19,5 +19,6 @@ int main(void)
 	_printf("String:[%s]\n", "I am a string !");
 	printf("String:[%s]\n", "I am a string !");
 	printf("\n%d and %d", len, len2);
+	 _printf("Unknown:[%r]\n");
 	return (0);
 }
