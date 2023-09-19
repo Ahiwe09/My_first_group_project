@@ -6,7 +6,7 @@
  */
 int play_unsigned(va_list lst)
 {
-	unsigned int fetch= va_arg(lst, unsigned int);
+	unsigned int fetch = va_arg(lst, unsigned int);
 	int cntr = 0;
 
 	if (fetch == 0)

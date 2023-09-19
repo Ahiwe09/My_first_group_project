@@ -4,7 +4,6 @@
  * accoding to some spacifiers passed
  * @format: this is constant arg part
  * @...: This is the variable part of the arg
- *
  * Return: retur gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.cns an int value
  */
 int _printf(const char *format, ...)
@@ -23,8 +22,10 @@ int _printf(const char *format, ...)
 		if (format[k] == '%')
 		{
 			k++;
-			if (format[k] == 'c' || format[k] == 'd' || format[k] == 'i' || format[k] == 's' || format[k] == 'b' ||
-				format[k] == 'u' || format[k] == 'o' || format[k] == 'x' || format[k] == 'X')
+			if (format[k] == 'c' || format[k] == 'd' || format[k] == 'i' || format[k] == 's'
+					|| format[k] == 'b' ||
+					format[k] == 'u' || format[k] == 'o' || format[k] == 'x'
+					|| format[k] == 'X')
 			{
 				prt_cntr += trigger(format[k])(lst);
 			}
@@ -39,7 +40,6 @@ int _printf(const char *format, ...)
 				_putchar(format[k]);
 				prt_cntr++;
 				continue;
-
 			}
 		}
 		else
@@ -48,6 +48,5 @@ int _printf(const char *format, ...)
 		}
 	}
 	va_end(lst);
-
 	return (prt_cntr);
 }

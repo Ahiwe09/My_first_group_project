@@ -18,6 +18,7 @@ int play_hex(va_list lst)
 	while (fetch)
 	{
 		int remainder = fetch % 16;
+
 		if (remainder < 10)
 			hex[cntr++] = remainder + '0';
 		else
