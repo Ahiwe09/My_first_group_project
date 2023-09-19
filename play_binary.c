@@ -10,7 +10,7 @@ int play_bin(va_list lst)
 {
 	int bin[32];
 	int k = 0, cntr = 0;
-	int fetch = va_arg(lst, int);
+	unsigned int fetch = va_arg(lst, int);
 
 	if (fetch < 0)
 	{
