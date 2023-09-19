@@ -27,7 +27,7 @@ int _printf(const char *format, ...)
 			{
 				prt_cntr += trigger(format[k])(lst);
 			}
-			else if(format[k] == '%')
+			else if (format[k] == '%')
 			{
 				_putchar('%');
 				prt_cntr++;
@@ -38,7 +38,7 @@ int _printf(const char *format, ...)
 				_putchar(format[k]);
 				prt_cntr++;
 				continue;
-		
+
 			}
 		}
 		else
