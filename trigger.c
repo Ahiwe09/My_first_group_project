@@ -19,5 +19,7 @@ int (*trigger(char choice))(va_list lst)
 	{
 		return (&play_str);
 	}
+	else if (choice == 'b')
+		return (&play_bin);
 	return (0);
 }
