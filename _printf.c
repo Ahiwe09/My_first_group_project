@@ -5,7 +5,7 @@
  * @format: this is constant arg part
  * @...: This is the variable part of the arg
  *
- * Return: returns an int value
+ * Return: retur gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.cns an int value
  */
 int _printf(const char *format, ...)
 {
