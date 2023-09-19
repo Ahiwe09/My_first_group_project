@@ -11,7 +11,7 @@ int (*trigger(char choice))(va_list lst)
 	{
 		return (&play_char);
 	}
-	else if (choice == 'd')
+	else if (choice == 'd' || choice == 'i')
 	{
 		return (&play_int);
 	}
