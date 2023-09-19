@@ -22,4 +22,5 @@ int play_bin(va_list lst);
 int play_unsigned(va_list lst);
 int play_octal(va_list lst);
 int play_hex(va_list lst);
+int play_hex_X(va_list lst);
 #endif
