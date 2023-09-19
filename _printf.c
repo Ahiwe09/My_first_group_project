@@ -34,9 +34,7 @@ int _printf(const char *format, ...)
 		else
 		{
 			prt_cntr += _putchar(format[k]);
-			prt_cntr++;
 		}
-		k++;
 	}
 	va_end(lst);
 

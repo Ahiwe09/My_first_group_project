@@ -12,9 +12,10 @@ int play_str(va_list lst)
 
 	if (fetch == NULL)
 		fetch = "(null)";
-	while (*fetch++ != '\0')
+	while (*fetch != '\0')
 	{
 		cntr += _putchar(*fetch);
+		fetch++;
 	}
 	return (cntr);
 }
