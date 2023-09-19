@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>//remove this line once the code starts complying with the main printf
 #include "main.h"
-#include "_putchar.c"
+#include "_putchar.c"//remove this too
 
 int play_bin(int fetch) //pls mike remember to change this t0 "(va_list lst)"
 {
