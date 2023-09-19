@@ -23,7 +23,7 @@ int _printf(const char *format, ...)
 		if (format[k] == '%')
 		{
 			k++;
-			if (format[k] == 'c' || format[k] == 'd' || format[k] == 's')
+			if (format[k] == 'c' || format[k] == 'd' || format[k] == 'i' || format[k] == 's')
 			{
 				prt_cntr += trigger(format[k])(lst);
 			}
