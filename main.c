@@ -1,7 +1,7 @@
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
-
+#include <limits.h>
 /**
  * main - Entry point
  *
@@ -11,6 +11,7 @@ int main(void)
 {
 	int len;
 	int len2;
+	unsigned int ui = (unsigned int)INT_MAX + 1024;
 
 	len = _printf("Let's try to printf a simple sentence.\n");
 	len2 = printf("Let's try to printf a simple sentence.\n");
@@ -24,6 +25,7 @@ int main(void)
 	printf("\n%c\n", 48);
 	printf("\n%%%%%%\n");
 	_printf("\n%%%%%%\n");
+	_printf("%o", ui);
 
 	return (0);
 }
