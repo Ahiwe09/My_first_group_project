@@ -17,7 +17,7 @@ int (*trigger(char choice))(va_list lst)
 	else if (choice == 'b')
 		return (&play_bin);
 	else if (choice == 'u')
-		return (&play_unsigned int);
+		return (&play_unsigned);
 	else if (choice == 'o')
 		return (&play_octal);
 	else if (choice == 'x')
