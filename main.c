@@ -24,12 +24,6 @@ int main(void)
 	printf("\n%c\n", 48);
 	printf("\n%%%%%%\n");
 	_printf("\n%%%%%%\n");
-	int k = printf("%%%%%%%%\n");
 
-	printf("value for printf %d\n", k);
-
-	int y =  _printf("%%%%%%%%\n");
-
-	printf("value for _printf %d\n", y);
 	return (0);
 }
