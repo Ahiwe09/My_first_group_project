@@ -6,7 +6,6 @@
  * @...: This is the variable part of the arg
  * Return: (prt_cntr) an int value
  */
-int _printf(const char *format, ...);
 int _printf(const char *format, ...)
 {
 	int k = 0;
